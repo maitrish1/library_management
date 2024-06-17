@@ -1,0 +1,29 @@
+#root {
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.parent{
+  display: flex;
+  
+}
+.card-parent{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: rgb(235, 225, 225);
+  width: 400px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.block{
+  font-weight: 700;
+}
