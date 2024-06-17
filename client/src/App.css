@@ -8,7 +8,7 @@
 }
 .parent{
   display: flex;
-  
+
 }
 .card-parent{
   display: flex;
@@ -16,6 +16,11 @@
   justify-content: center;
   gap: 1em;
   flex-wrap: wrap;
+  width: 50%;
+  align-items: end;
+}
+.left{
+  height: fit-content;
 }
 .card {
   background-color: rgb(235, 225, 225);
@@ -26,4 +31,10 @@
 
 .block{
   font-weight: 700;
+}
+
+.return{
+  background-color: rgb(237, 107, 107);
+  color: white;
+  border: 1px solid white;
 }
